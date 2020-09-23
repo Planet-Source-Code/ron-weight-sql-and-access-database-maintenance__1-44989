@@ -1,0 +1,40 @@
+[Version]
+Version=1.1.0.1
+
+[DBMaintenance.dll <0009>]
+Dest=$(AppPath)
+Date=4/11/2003
+Time=12:21
+Version=1.1.0.1
+CABFilename=DBMaintenance.CAB
+CABINFFile=DBMaintenance.INF
+Uses1=msvbvm60.dll
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=msado15.dll
+Uses8=msjro.dll
+Uses9=scrrun.dll
+Uses10=msadox.dll
+Uses11=sqldmo.rll
+Uses12=sqldmo.dll
+
+[msjro.dll <0009>]
+Dest=$(WinSysPath)
+Date=8/29/2002
+Time=04:41
+Version=2.71.9030.0
+
+[msadox.dll <0009>]
+Dest=$(WinSysPath)
+Date=7/13/2001
+Time=10:30
+Version=2.70.7713.0
+
+[sqldmo.rll <0009>]
+Dest=$(AppPath)
+Date=10/24/2000
+Time=18:34
+Version=2000.10.24.0
